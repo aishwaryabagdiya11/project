@@ -1,6 +1,6 @@
 <%@ page import="java.sql.*"%>
 <%
-    String userName = request.getParameter("uname");    
+    String userName = request.getParameter("userName");    
     String password = request.getParameter("password");
     Class.forName("com.mysql.cj.jdbc.Driver");
     Connection con = DriverManager.getConnection("jdbc:mysql://project-1.cfqyu3s0xkkn.us-west-1.rds.amazonaws.com:3306/project",
